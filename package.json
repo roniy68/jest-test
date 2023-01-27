@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "jest",
+    "watch": "jest --watch"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/roniy68/jest-test/issues"
   },
-  "homepage": "https://github.com/roniy68/jest-test#readme"
+  "homepage": "https://github.com/roniy68/jest-test#readme",
+  "devDependencies": {
+    "jest": "^29.4.1"
+  }
 }
